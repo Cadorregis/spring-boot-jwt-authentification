@@ -33,12 +33,13 @@ Test de développement Java Spring Boot Anywr.
 
 ## API
 
-Method | Path           | Description                                         |
--------|----------------|-----------------------------------------------------|
-POST   | /auth/register | Création de compte utilisateur                      |
-POST   | /auth/login    | Connexion                                           |
-GET    | /users/me      | Retourne les informations de l'utilisateur connecté |
-POST   | /auth/logout   | Déconnexion de l'utilisateur connecté               |
+Method | Path                | Description                                         |
+-------|---------------------|-----------------------------------------------------|
+POST   | /auth/register      | Création de compte utilisateur                      |
+POST   | /auth/login         | Connexion                                           |
+POST   | /auth/refresh-token | Rafraîchissement du jeton d'accès                   |
+GET    | /users/me           | Retourne les informations de l'utilisateur connecté |
+POST   | /auth/logout        | Déconnexion de l'utilisateur connecté               |
 
 ## Références
 [1] https://jwt.io/introduction/
